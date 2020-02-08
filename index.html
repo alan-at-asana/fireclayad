@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta name="viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no" />
+		<meta name="apple-mobile-web-app-title" content="Fireclay Tile Demo" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<style>
+			img{
+				width: 100%;
+			}
+			iframe{
+				width: 100%;
+				height: 100%;
+				margin-top: 50px;
+				display: none;
+				border: none;
+			}
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+			<img id="designurl" style="position: fixed; top:0; left:0; z-index: 10;" src="chromeheader.png"/>
+			<img id="fireclayurl" style="position: fixed; top:0; left:0; z-index: 1;" src="fireclayurl.png"/>
+			<img id="designmagazine" src="bodywithad.png" onclick="$('#designurl').hide(); $('#designmagazine').hide(); $('iframe').show();"/>
+			<iframe src="https://www.fireclaytile.com/commercial"></iframe>
+	</body>
+
+
+
+</html>
